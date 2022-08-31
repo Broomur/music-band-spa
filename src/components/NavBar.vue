@@ -16,9 +16,6 @@
                 <a href="#band" @click="loadPage('band')" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
                 <a href="#tour" @click="loadPage('tour')" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
                 <a href="#contact" @click="loadPage('contact')" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-                <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
-                </div>
                 <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
             </div>
         </div>
