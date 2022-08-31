@@ -9,7 +9,7 @@ import Contact from './components/Contact.vue'
 export default {
   data() {
     return {
-      page: "band"
+      page: "home"
     }
   },
   components: {
@@ -34,7 +34,7 @@ export default {
   </header>
 
   <main class="w3-content" style="max-width:2000px;margin-top:46px">
-    <SlideShow />
+    <SlideShow v-if="page == 'home'"/>
     <BandSection v-if="page == 'band'" />
     <PageTour v-if="page == 'tour'" />
     <Contact v-if="page == 'contact'" />
